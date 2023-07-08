@@ -12,7 +12,7 @@ class BaseDao {
 
           $host = "eu-cdbr-west-03.cleardb.net";
           $port = 3306;
-          $dbname = "d19lsod8u5s4bl";
+          $dbname = "heroku_481d1fad577c0c2";
           $user = "b641a7143dc85e";
           $pass = "5cb17575";
 
