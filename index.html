@@ -308,7 +308,7 @@
         // Iterate through each share class and create an option element
         for (var i = 0; i < shareClasses.length; i++) {
           var shareClass = shareClasses[i];
-          var option = $('<option>').val(shareClass.id).text(shareClass.description);
+          var option = $('<option>').val(shareClass.id).text(shareClass.amount);
           selectField.append(option);
         }
       },
@@ -336,7 +336,7 @@
           // Iterate through each share class category and create an option element
           for (var i = 0; i < shareClassCategories.length; i++) {
             var shareClassCategory = shareClassCategories[i];
-            var option = $('<option>').val(shareClassCategory.id).text(shareClassCategory.description);
+            var option = $('<option>').val(shareClassCategory.id).text(shareClassCategory.first_name);
             selectField.append(option);
           }
         },
