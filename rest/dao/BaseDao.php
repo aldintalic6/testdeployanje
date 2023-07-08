@@ -10,11 +10,11 @@ class BaseDao {
     public function __construct(){
         try {
 
-          $host = "db-mysql-nyc1-13993-do-user-3246313-0.b.db.ondigitalocean.com";
-          $port = 25060;
-          $dbname = "final-midterm2-2023";
-          $user = "doadmin";
-          $pass = "AVNS_z6PG_c6BSn-5dB0CG5S";
+          $host = "eu-cdbr-west-03.cleardb.net";
+          $port = 3306;
+          $dbname = "d19lsod8u5s4bl";
+          $user = "b641a7143dc85e";
+          $pass = "5cb17575";
 
 
         /*options array neccessary to enable ssl mode - do not change*/
