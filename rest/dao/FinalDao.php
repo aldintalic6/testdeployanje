@@ -76,7 +76,7 @@ class FinalDao extends BaseDao {
     * Implement DAO method to return list of all share classes from share_classes table
     */
     public function share_classes() {
-        $query = "SELECT * FROM transfers";
+        $query = "SELECT * FROM share_classes";
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
         $shareClasses = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -88,7 +88,7 @@ class FinalDao extends BaseDao {
     * Implement DAO method to return list of all share class categories from share_class_categories table
     */
      public function share_class_categories() {
-        $query = "SELECT * FROM investors";
+        $query = "SELECT * FROM share_class_categories";
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
         $shareClassCategories = $stmt->fetchAll(PDO::FETCH_ASSOC);
